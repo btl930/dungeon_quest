@@ -169,7 +169,7 @@ def main():
                 elif action_input == "3":
                     check_status(player)
                     if player["health"] < 1:
-                        break
+                        in_play = False 
                 elif action_input == "4":
                     in_play = False
             else:
